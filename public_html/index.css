@@ -1,0 +1,813 @@
+body{
+	background-color: black;
+	color: white;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+.scrollblock {
+	position: absolute;
+	top: 0%;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+	/*left: 20%;
+	right: 20%;*/
+	width: 800px;
+}
+.title {
+	position: absolute;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 50%;
+    font-size: 300%;
+}
+a:visited {
+	color: teal;
+}
+a.source{
+	color: teal;
+	font-family: Helvetica;
+	font-size: .8em;
+	text-decoration: none;
+	position: absolute;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+#scene1, #scene2, #scene3, #scene4 {
+	height: 400px;
+	text-align: center;
+}
+#scene2 {
+	top: 600px;
+}
+#scene3 {
+	top:1200px;
+	height: 400px;
+}
+#scene1 .title {
+	margin: auto;
+	font-size: 300%;
+	padding-top: 30%;
+	padding-bottom: 5%;
+}
+#scene1 .down-triangle { 
+   margin: auto;
+   width: 0; 
+   height: 0;
+   border-top: 80px solid rgba(58,199,181,1);
+   border-left: 60px solid transparent; 
+   border-right: 60px solid transparent; 
+}
+#scene1 a {
+	position: absolute;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+	bottom: 0%;
+}
+.highlight{
+	color: rgba(58,199,181,1);
+}
+#scene2 {
+	height: 600px;
+}
+#scene2 #sp_back{
+	z-index: -1;
+}
+#college #sp_back{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#sp_back img {
+	position: absolute;
+	right:0;
+	left:0;
+    margin-left:auto;
+    margin-right:auto;
+	width: 400px;
+	top: 0px;
+	opacity: 0;
+}
+#scene2 #college img{
+	position: absolute;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	bottom: 10%;
+	width: 200px;
+	opacity: 0;
+}
+#scene2 h1 {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 50%;
+	bottom: 50%; 
+	z-index: 100;
+	opacity: 0;
+	height: 100px;
+	font-size: 250%;
+}
+#scene2 .large {
+	opacity: 0;
+	position: absolute;
+	top: -20%;
+	height: 100%;
+	left:0%;
+	right:0%;
+	z-index: 100;
+	font-size: 180px;
+}
+#scene3 {
+	vertical-align: middle;
+	height: 900px;
+}
+#scene3 .title{
+	font-size: 300%;
+}
+#scene3 .title span{
+	font-size: 100%;
+}
+#scene4 {
+	text-align: center;
+	top: 1800px;
+	height: 500px;
+}
+#scene4 a {
+	position: absolute;
+	right: 0;
+	bottom: -30px;
+}
+#scene4 h1 {
+	display: inline;
+	font-size: 1100%;
+	top:10px;
+}
+#scene4 h2 {
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	right: 20%;
+	font-size: 300%;
+}
+#scene4 h3 {
+	position: absolute;
+	top: 70%;
+	left: 20%;
+	right: 20%;
+	font-size: 200%;
+}
+#ticker {
+	position: absolute;
+	/*background: white;*/
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+	width: 100%;
+	height: 300px;
+	top: 30%;
+}
+
+#scene5 {
+	top: 2300px;
+	height:300px;
+}
+#scene5 .title {
+	height: 70px;
+	vertical-align: middle;
+}
+#scene5 .title{
+	top: 50%;
+	position: absolute;
+	margin: auto;
+	padding: 1%;
+	font-size: 300%;
+	text-align: center;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.9);
+}
+#scene5_bg {
+	position: absolute;
+	top: 5750px;
+	width: 60%;
+	height: 600px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+#scene5_bg p {
+	position: absolute;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+	width: 100%;
+}
+#scene5_bg img {
+	margin-bottom: -5px;
+	margin-top:0px;
+	width: 80px;
+}
+
+#scene5a {
+	position: absolute;
+	top: 2300px;
+	width: 60%;
+	height: 350px;
+	padding-bottom: 100px;
+	background-color: #000000;
+}
+#scene5a .title {
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+	position: absolute;
+	font-size: 350%;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	height: 150px;
+	background: rgba(0, 0, 0, 0.9);
+}
+#scene5a span#people {
+	display: block;
+}
+#scene5a img {
+	width: 10px;
+}
+#scene6 {
+	position: absolute;
+	top: 2700px;
+	width: 60%;
+	height: 800px;
+	background-color: #000000;
+}
+#scene6 .title {
+	font-size: 300%;
+}
+#scene7 {
+	position: absolute;
+	top: 3300px;
+	width: 60%;
+	height: 500px;
+	background-color: #000000;
+}
+#scene7 .title {
+	position: absolute;
+	top: 0;
+	margin-top: 10px;
+	left: 0;
+}
+#scene7 span {
+	position: absolute;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 100%;
+}
+#scene7 span img {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#scene7 h2 {
+	opacity: 0;
+	position: absolute;
+	top: 20%;
+	height: 50px;
+}
+#scene7 span #college2, h2 #college {
+    width: 200px;
+    left: 0px;
+}
+#scene7 span #self, h2 #self {
+    width: 120px;
+    right: 0%;
+}
+#scene7 span #peers {
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 200px;
+}
+#scene7 span #victim {
+	opacity: 1;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    bottom: -70%;
+    width: 200px;
+}
+#scene8 {
+	position: absolute;
+	top: 3900px;
+	height: 500px;
+}
+#scene8 #main img {
+	position: absolute;
+	width: 100%;
+	height: 300px;	
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: 1;
+}
+#scene8 .title {
+	position: absolute;
+	background-color: black;
+	top: 0%;
+	margin-top: 0px;
+	padding-top: 30px;
+	height: 100px;
+	z-index: 1;
+}
+#scene8 #black1 {
+	position: absolute;
+	background-color: black;
+	top: 0%;
+	left: -10%;
+	width: 300%;
+	height: 150px;
+	z-index: 0;
+}
+#scene8 #overlay {
+	position: absolute;
+	opacity: 0;
+	width: 500px;
+	height: 300px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.8);
+}
+
+#scene8 #overlay h2 {
+	height: 100px;
+	font-size: 200%;
+	position: absolute;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    vertical-align: middle;
+}
+#scene8_underlay {
+	position: absolute;
+	top: 10800px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: -1;
+    font-size: 300%;
+}
+#scene8_underlay h1 {
+	margin-top: 200px;
+    margin-bottom: 100px;
+}
+#scene9 {
+	position: absolute;
+	top: 4500px;
+	height: 300px;
+}
+#scene9 span {
+	font-size: 200%;
+	margin-top: -10px;
+}
+#scene9 div {
+	position: absolute;
+	top: 300px;
+	width: 100%;
+}
+#scene9 p {
+	margin-top: 10px;
+	font-size: 200%;
+}
+#scene9 p:nth-child(2){
+	margin-top: -30px;
+}
+#scene10 {
+	position: absolute;
+	top: 5200px;
+	height: 600px;
+
+}
+#scene11 {
+	top: 5700px;
+	height: 600px;
+
+}
+#scene12 {
+	top: 6300px;
+	height: 600px;
+
+}
+#scene12 span {
+opacity: 0;
+}
+#scene13 {
+	top: 7300px;
+	height: 600px;
+
+}
+#scene13 img {
+	position: absolute;
+	top: 0%;
+	left: 800px;
+	height: 100%;
+}
+#scene14 {
+	top: 7900px;
+	height: 600px;
+}
+#scene14 .title {
+	font-size: 200%;
+	margin-top: 40px;
+}
+#scene14 h2 {
+	position: absolute;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+	top: 50%;
+	font-size: 300%;
+}
+#scene14 p {
+	text-align: left;
+	position: absolute;
+	top:25%;
+	width: 500px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 150%;
+}
+#scene15 {
+	top: 8500px;
+	height: 600px;
+}
+#scene15a {
+	position: absolute;
+	font-size: 150%;
+	text-align: left;
+	top: 21600px;
+	width: 700px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+#scene15a p {
+	margin-bottom:190px;
+	font-size: 1.8em;
+}
+#scene15a a, #scene15a:visited {
+	color: teal;
+	text-decoration: none;
+}
+#scene15 h1 {
+	position: absolute;
+	font-size: 200%;
+	padding-top: 20px;
+}
+#scene15 p{
+	opacity: 1;
+	position: absolute;
+	height: 200px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+#scene16 {
+	top: 9000px;
+	height: 500px;
+	padding-top: 20px;
+}
+#scene16 h1 {
+	width: 500px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 10;
+}
+#scene16 div#main16 {
+	position: absolute;
+	top: 70px;
+	height: 500px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: o;
+}
+#scene16 #stand {
+	position: absolute;
+	width: 150px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+	top: 0;
+    bottom: 0;
+    margin-bottom: auto;
+    margin-top: auto;	
+}
+#scene16 #lever {
+	position: absolute;
+	width: 400px;
+	top: 22%;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+#scene16 #panleft {
+	position: absolute;
+	top: 20%;
+	left:152px;
+}
+#scene16 #panright {
+	position: absolute;
+	width: 200px;
+	top: 20%;
+	left:480px;
+}
+#scene16 #college3, #self2 {
+	position: absolute;
+	top: 50%;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+	width: 100px;
+	z-index: -1;
+}
+#scene16 #self2 {
+	width: 75px;
+	top: 45%;
+}
+#scene17 {
+	top: 10000px;
+	height: 500px;
+}
+#scene17 span {
+	font-size: 200%;
+}
+#scene18 {
+	top: 10900px;
+	height: 500px;
+	font-size: 200%;
+}
+#scene19 {
+	top: 11600px;
+	height: 500px;
+	font-size: 150%;
+}
+#scene19 span {
+	font-size: 400%;
+}
+#scene19 h1 {
+	position: absolute;
+	line-height: 90px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+#scene19 h2 {
+	position: absolute;
+	bottom: -50px;
+	line-height: 80px;
+	font-size: 300%;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+#scene20 {
+	top: 12500px;
+	height: 500px;
+}
+#scene20 .title {
+	height: 100px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+#scene20 div {
+	position: absolute;
+	left: 0;
+	margin-left: 0px;
+	top: 0;
+    bottom: 0;
+    width: 3400px;
+    margin-bottom: auto;
+    margin-top: auto;	
+}
+#scene20 div li {
+	font-size: 200%;
+	width: 450px;
+	min-height: 200px;
+	margin: 190px;
+	margin-top: 140px;
+	padding: 0px;
+	display: inline-block;
+}
+#scene20 h3 {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#scene21 {
+	top: 13270px;
+	height: 500px;
+}
+#scene21 h2 {
+	position: absolute;
+	opacity: 0;
+	font-size: 200%;
+	top: 40%;
+	height: 100px;
+	left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+#scene21 h2:nth-child(2) {
+	top:55%;
+}
+#scene21 h2:nth-child(3) {
+	top:70%;
+}
+#scene22 {
+	top: 14700px;
+	height: 500px;
+}
+#scene22 h1 {
+	font-size: 700%;
+}
+#scene22 h3 {
+	font-size: 40%;
+	width: 500px;
+}
+#scene23 {
+	top: 15700px;
+	height: 740px;
+	font-size: 300%;
+	margin-bottom: 50px;
+}
+#scene23 h1 {
+	font-size: 120%;
+}
+#scene23 div {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 50%;
+	margin-bottom: 50px;	
+	width: 300px;
+	height: 400px;
+}
+#scene23 #campus_btn {
+	font-size: 130%;
+	line-height: 40px;
+	background-color: teal;
+}
+#scene23 .btn, #campus_btn {
+	margin: 10px;
+	width: 100%;
+	text-align: center;
+	vertical-align: center;
+	padding: 15px;
+	color: white;
+	border-radius: 10px;
+}
+#campus_btn {
+	-webkit-animation-name: pulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-direction: alternate;
+}
+#scene23 .btn {
+	background-color: grey;
+	font-size: 100%;
+	line-height: 30px;
+}
+#scene23 p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#scene23 #resources a, #resources a:visited, #social a {
+	display: block;
+	color: teal;
+	text-decoration: none;
+	text-align: left;
+	margin-left: 2px;
+	font-size: 70%;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+#scene23 #resources {
+	margin-left: 20px;
+}
+#scene23 #resources h1 {
+	margin: 0px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+#scene23 #social {
+	text-align: right;
+	margin-right: 30px;
+}
+#scene23 #social iframe {
+	padding-top: 0px;
+}
+footer {
+	background-color: rgb(20,20,20);
+	font-family: helvetica;
+	font-style: italic;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	color: white;
+	height: 55px;
+	font-size: .3em;
+	padding: 15px;
+	opacity: .5;
+}
+footer a, footer a:visited {
+	margin: 0px;
+	position: relative;
+	display: inline;
+	font-family: helvetica;
+	font-style: italic;
+	font-size: .9em;
+	color: rgb(222,222,222);
+}
+
+@-webkit-keyframes pulse {
+ from {
+ 	background-color: rgba(58,199,181,1); 
+ }
+ to {
+ 	background-color: teal;
+ }
+}
+
